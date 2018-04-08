@@ -1,0 +1,44 @@
+{
+  "name": "PersonalSoftTest",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "node_modules/.bin/jest",
+    "tw": "node_modules/.bin/jest --watch",
+    "ios": "react-native run-ios --simulator=\"iPhone 8\"",
+    "android": "react-native run-android",
+    "lint": "eslint \"src/**/*.js\""
+  },
+  "dependencies": {
+    "react": "16.3.1",
+    "react-native": "0.55.1",
+    "prop-types": "^15.6.1",
+    "react-native-maps": "^0.17.1",
+    "react-navigation": "^1.5.0",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
+    "redux-actions": "^2.3.0",
+    "redux-thunk": "^2.2.0",
+    "unsplash-js": "^4.8.0"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.3",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.4.3",
+    "react-test-renderer": "16.3.1",
+    "babel-eslint": "^8.0.1",
+    "babel-plugin-root-import": "^5.1.0",
+    "eslint": "^4.18.2",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.3.0"
+  },
+  "jest": {
+    "verbose": true,
+    "preset": "react-native",
+    "setupFiles": ["./jest/setup.js"]
+  }
+}

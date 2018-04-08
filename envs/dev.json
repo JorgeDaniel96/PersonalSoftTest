@@ -1,0 +1,12 @@
+{
+  "apis": {
+    "unsplash": {
+      "BASE_URL": "https://api.unsplash.com/",
+      "APP_ID":
+        "c51dee1b0eefe50e91a4c7d0ef1cb82a393de33216e1fccb9a22f86c0d2f03e1",
+      "APP_SECRET":
+        "d6c9957ef04a5895832052863fafcc9dcf5b57d7307788a66227afc32c900b49",
+      "CALLBACK_URL": "https://personal-soft-test.com"
+    }
+  }
+}
